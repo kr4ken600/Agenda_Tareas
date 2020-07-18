@@ -370,7 +370,7 @@ class RegistrarTarea extends Component {
                         id="minutos"
                         onChange={this.handleChange}
                       >
-                        <option value="false">Selecciona una hora</option>
+                        <option value="false">Selecciona los minutos</option>
                         {this.generarMinutos()}
                       </select>
                     </div>

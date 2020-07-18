@@ -166,7 +166,7 @@ class PerfilNav extends Component {
         <h5>
           Bienvenido <strong className="text-primary">{nombre}</strong>
         </h5>
-        <p>Tienes {this.props.conteo} tarea(s) pendente(s)</p>
+        <p>Tienes {this.props.conteo} tarea(s) pendiente(s)</p>
 
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">

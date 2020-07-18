@@ -36,7 +36,7 @@ class Perfil extends Component {
             <h5 className="card-title">
               Bienvenido <strong className="text-primary">{nombre}</strong>
             </h5>
-            <p>Tienes {this.props.conteo} tarea(s) pendente(s)</p>
+            <p>Tienes {this.props.conteo} tarea(s) pendiente(s)</p>
           </div>
           <ul className="list-group list-group-flush">
             <a className="list-group-item card-link" href="/tarea">
